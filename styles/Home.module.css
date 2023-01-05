@@ -3,6 +3,29 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
+}
+
+.main_div{
+  border: 2px solid;
+  width: 67%;
+  height: 92vh;
+  display: flex;
+}
+
+.left_div{
+  width: 31%;
+  border: 2px solid;
+  border-radius: 0 0 190px 190px;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.right_div{
+  width: 69%;
+}
+
+.heading{
+  text-align: center;
+  margin-top: 24px;
 }
